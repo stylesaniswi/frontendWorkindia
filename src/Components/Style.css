@@ -1,0 +1,47 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px 50px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.grid-item {
+  padding: 15px 20px;
+
+  text-align: left;
+}
+
+.grid-item h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding: 0;
+}
+
+
+h4 {
+  font-size: 20px;
+}
+
+ul li {
+
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+ul li img {
+  margin-right: 5px
+}
+
+.subsection {
+  box-shadow: 3px 3px 5px 5px #bbb;
+  padding: 20px 15px;
+  margin: 20px 15px 30px 0;
+  border-radius: 4px;
+
+}
